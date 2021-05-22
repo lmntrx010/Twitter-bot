@@ -1,2 +1,2 @@
 # Twitter-bot
-A twitter bot to get the tweet of different users in the form of direct messages by replying to the tweet mentioning our bot @vidantium with the keyword #scrap
+We all want to save our tweets for later consumption to make this possible the twitter bot - vidantium comes into play. Just reply to the tweet you want to save by mentioning the bot @vidantium and with a keyword #scrap now that particular tweet will be send to you by direct message in twitter.
