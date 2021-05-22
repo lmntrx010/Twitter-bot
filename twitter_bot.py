@@ -1,8 +1,6 @@
-from re import A
 import tweepy
 import time
 
-from tweepy.models import DirectMessage
 
 consumer_key='E22Ak6pu2Zz2k9MJnxTrUNFth'
 consumer_secret='gFcZCyPMrto62pjeAbKqDYaLFBhvqIKiikT6Z1utOfm54jrWZF'
