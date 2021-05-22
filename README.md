@@ -1,2 +1,2 @@
 # Twitter-bot
-A twitter bot to get the twitter of different users by mentioning the bot in the form of direct messages
+A twitter bot to get the tweet of different users p in the form of direct messages by replying to the tweet mentioning our bot @vidantium with the keyword #scrap
