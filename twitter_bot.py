@@ -32,8 +32,8 @@ def reply_to_tweets():
         text=mention.full_text.lower()
         if '#scrap' in text:
                original_id=mention.in_reply_to_status_id
-               tweet=api.get_status(original_id)
-               a=tweet.text
+               tweet=api.get_status(original_id,tweet_mode='extended')
+               a=tweet.full_text
                recipient_name=mention.user.screen_name
                user=api.get_user(recipient_name)
                id=user.id_str
