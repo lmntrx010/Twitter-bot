@@ -13,7 +13,6 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
 api = tweepy.API(auth)
 
-
 def reply_to_tweets():
 	last_seen_id = db['value']
 	mentions = api.mentions_timeline(last_seen_id, tweet_mode='extended')
@@ -21,7 +20,6 @@ def reply_to_tweets():
 		db['value'] = mention.id
 		text = mention.full_text.lower()
 		if '#scrap' in text:
-
 			original_id = mention.in_reply_to_status_id
 			tweet = api.get_status(original_id, tweet_mode='extended')
 			a = tweet.full_text
